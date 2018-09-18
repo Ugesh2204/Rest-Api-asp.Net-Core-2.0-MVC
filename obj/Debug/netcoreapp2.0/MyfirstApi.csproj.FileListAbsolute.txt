@@ -1,0 +1,11 @@
+C:\Users\Ugesh\Desktop\ASP.NETCore\APIs\MyfirstApi\MyfirstApi\bin\Debug\netcoreapp2.0\MyfirstApi.deps.json
+C:\Users\Ugesh\Desktop\ASP.NETCore\APIs\MyfirstApi\MyfirstApi\bin\Debug\netcoreapp2.0\MyfirstApi.runtimeconfig.json
+C:\Users\Ugesh\Desktop\ASP.NETCore\APIs\MyfirstApi\MyfirstApi\bin\Debug\netcoreapp2.0\MyfirstApi.runtimeconfig.dev.json
+C:\Users\Ugesh\Desktop\ASP.NETCore\APIs\MyfirstApi\MyfirstApi\bin\Debug\netcoreapp2.0\MyfirstApi.dll
+C:\Users\Ugesh\Desktop\ASP.NETCore\APIs\MyfirstApi\MyfirstApi\obj\Debug\netcoreapp2.0\MyfirstApi.csprojAssemblyReference.cache
+C:\Users\Ugesh\Desktop\ASP.NETCore\APIs\MyfirstApi\MyfirstApi\obj\Debug\netcoreapp2.0\MyfirstApi.csproj.CoreCompileInputs.cache
+C:\Users\Ugesh\Desktop\ASP.NETCore\APIs\MyfirstApi\MyfirstApi\obj\Debug\netcoreapp2.0\MyfirstApi.AssemblyInfoInputs.cache
+C:\Users\Ugesh\Desktop\ASP.NETCore\APIs\MyfirstApi\MyfirstApi\obj\Debug\netcoreapp2.0\MyfirstApi.AssemblyInfo.cs
+C:\Users\Ugesh\Desktop\ASP.NETCore\APIs\MyfirstApi\MyfirstApi\bin\Debug\netcoreapp2.0\MyfirstApi.pdb
+C:\Users\Ugesh\Desktop\ASP.NETCore\APIs\MyfirstApi\MyfirstApi\obj\Debug\netcoreapp2.0\MyfirstApi.dll
+C:\Users\Ugesh\Desktop\ASP.NETCore\APIs\MyfirstApi\MyfirstApi\obj\Debug\netcoreapp2.0\MyfirstApi.pdb
