@@ -1,0 +1,21 @@
+﻿body {
+    color: #333;
+}
+
+.tableTitlesize {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.my-container {
+    margin-top: 2rem;
+}
+
+.formmargintop {
+    margin-top: 2rem;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    background-color: #fff;
+}

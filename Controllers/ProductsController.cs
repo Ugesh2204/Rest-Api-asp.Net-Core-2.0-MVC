@@ -44,7 +44,7 @@ namespace MyfirstApi.Controllers
             applicationDbContext.SaveChanges();
 
             return CreatedAtAction("Get Products", new { id = product.Id }, product);
-           
+
         }
 
 
@@ -63,7 +63,7 @@ namespace MyfirstApi.Controllers
 
             //If someone put a wrong Id
 
-            if(result == null)
+            if (result == null)
             {
                 return BadRequest("No record found against this Id...");
             }
@@ -86,16 +86,16 @@ namespace MyfirstApi.Controllers
         {
 
             var result = applicationDbContext.Products.Find(id);
-              
-                if(result == null)
-                {
-                    return NotFound();
-                }
 
-                applicationDbContext.Products.Remove(result);
-                applicationDbContext.SaveChanges();
+            if (result == null)
+            {
+                return NotFound();
+            }
 
-                return Ok("The record has been deleted...");
+            applicationDbContext.Products.Remove(result);
+            applicationDbContext.SaveChanges();
+
+            return Ok("The record has been deleted...");
 
         }
 

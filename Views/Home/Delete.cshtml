@@ -1,0 +1,25 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h2>Are you sure to delete?</h2>
+
+<div>
+    <form asp-controller="Home" asp-action="Delete" method="post" novalidate>
+        <label asp-for="Id">Id</label> : <input asp-for="Id" type="text" readonly />
+        <span asp-validation-for="Id" style="color:red"></span> <br />
+
+        <label asp-for="ProductName">Product Name</label> : <input asp-for="ProductName" type="text" readonly />
+        <span asp-validation-for="ProductName" style="color:red"></span> <br />
+
+        <label asp-for="Price">Price</label> : <input asp-for="Price" type="text" readonly />
+        <span asp-validation-for="Price" style="color:red"></span> <br />
+
+        <input type="submit" value="Cancel" asp-action="Index" asp-controller="Home" /> |<input type="submit" value="Delete" />
+        <div asp-validation-summary="All" style="color:red"></div>
+    </form>
+</div>

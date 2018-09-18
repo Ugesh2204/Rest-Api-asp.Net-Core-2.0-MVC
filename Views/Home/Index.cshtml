@@ -1,0 +1,30 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>My Rest API RESULT</h2>
+
+<table class="table table-hover">
+    <tr class="tableTitlesize">
+        <td> Id</td>
+        <td>Product</td>
+        <td>Price</td>
+        <td>Delete</td>
+    </tr>
+
+    @foreach(var product in Model)
+    {
+    <tr>
+        <td>@product.Id</td>
+        <td>@product.ProductName</td>
+        <td>@product.Price</td>
+        <td>
+            <a asp-controller="Home" asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger">Delete</a>
+            @*@Html.ActionLink("Delete", "Delete", "Home", new { Id = product.Id })*@
+        </td>
+
+    </tr>
+
+    }
+</table>
